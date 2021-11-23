@@ -1,0 +1,19 @@
+section {
+    display: flex;
+    padding: 1%;
+    gap: 2%;
+}
+.card {
+    width: 400px;
+    padding: 2%;
+    padding: 1%;
+    background: chartreuse;
+}
+
+.card p {
+    font-size: 1.2em;
+}
+
+.card h3 {
+    font-size: 1.3em;
+}
