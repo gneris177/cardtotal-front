@@ -1,19 +1,21 @@
 section {
     display: flex;
-    padding: 1%;
-    gap: 2%;
+    justify-content: center;
+    padding: 1px;
+    gap:  1.5px;
 }
 .card {
-    width: 400px;
+    width: 300px;
+    height: 220px;
     padding: 2%;
     padding: 1%;
     background: chartreuse;
 }
 
-.card p {
-    font-size: 1.2em;
+.card:hover {
+    border: 2px solid rgb(39, 36, 36);
 }
 
-.card h3 {
-    font-size: 1.3em;
+.card p {
+    font-size: 1.2em;
 }
