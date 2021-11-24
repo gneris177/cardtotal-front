@@ -32,3 +32,10 @@ table, th, td {
     font-size: 20px;
 }
 
+.link {
+    float: right;
+    margin-top: 3%;
+    text-decoration: underline;
+    color: blue;
+}
+
