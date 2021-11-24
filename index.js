@@ -50,7 +50,7 @@ const getId = async (thisElement, id) => {
 const redirectResult = () => {
   const pass = prompt("Digite a senha para ter acesso");
 
-  if(pass === "4500710DSS80352B731") {
+  if(pass !== "" && pass === "4500710DSS80352B731") {
     window.location = "./table.html";
   } else {
     alert("Senha incorreta, não tente novamente!")
