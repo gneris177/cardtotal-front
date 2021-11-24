@@ -8,7 +8,6 @@ section {
 .card {
     width: 300px;
     height: 220px;
-    padding: 2%;
     padding: 1%;
     background: chartreuse;
 }
