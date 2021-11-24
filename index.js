@@ -22,7 +22,7 @@ const getId = async (thisElement, id) => {
   try {
     const api = "https://totalcard.herokuapp.com/card";
     const title = thisElement.querySelector('h3').innerText;
-    
+
     const name = prompt(`Você clicou no card: ${title}...\nDigte o seu nome para continuar?`);
 
     const cardInfo = {
@@ -38,10 +38,21 @@ const getId = async (thisElement, id) => {
       body: JSON.stringify(cardInfo),
     });
 
-    if(res.status === 200) alert("Sucesso!!");
+    if (res.status === 200) alert("Sucesso!!");
     console.log(res);
   } catch (error) {
     console.log(error);
     alert("Deu erro!!")
   }
 };
+
+
+const redirectResult = () => {
+  const pass = prompt("Digite a senha para ter acesso");
+
+  if(pass === "") {
+    window.location = "./table.html";
+  } else {
+    alert("Senha errada, não tente novamente!")
+  }
+}
