@@ -23,7 +23,7 @@ const getId = async (thisElement, id) => {
     const api = "https://totalcard.herokuapp.com/card";
     const title = thisElement.querySelector('h3').innerText;
 
-    const name = prompt(`Você clicou no card: ${title}...\nDigte o seu nome para continuar?`);
+    const name = prompt(`Você clicou no card: ${title}...\nQuero participar desse comitê. Digte o seu nome para continuar?`);
     const msg = prompt(`Quero estar nesse comitê para...`);
 
     const cardInfo = {
