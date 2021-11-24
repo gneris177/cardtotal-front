@@ -5,8 +5,9 @@ section {
     gap:  1.5px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
     section {
+        align-items: center;
         flex-direction: column;
     }
 }
