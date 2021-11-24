@@ -23,7 +23,7 @@ function render(data) {
     tableLine.innerHTML += `
     <tr >
         <td>${element.name}</td>
-        <td>${element.msg}</td>
+        <td>${element.msg || '-'}</td>
         <td>${element.cardId}</td>
     </tr>
       `;
