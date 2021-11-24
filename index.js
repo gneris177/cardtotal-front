@@ -24,10 +24,12 @@ const getId = async (thisElement, id) => {
     const title = thisElement.querySelector('h3').innerText;
 
     const name = prompt(`Você clicou no card: ${title}...\nDigte o seu nome para continuar?`);
+    const msg = prompt(`Quero estar nesse comitê para...`);
 
     const cardInfo = {
       name: name,
       cardId: id,
+      msg: msg
     };
 
     const res = await fetch(api, {
