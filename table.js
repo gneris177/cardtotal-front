@@ -24,7 +24,7 @@ function render(data) {
     <tr >
         <td>${element.name}</td>
         <td>${element.cardId}</td>
-      </tr>
+    </tr>
       `;
   });
 }
